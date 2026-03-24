@@ -35,6 +35,35 @@
   </table>
 </div>
 
+### Tools & Platforms
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="96">
+        <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" width="65" height="65" alt="GitHub"/>
+        <br>GitHub
+      </td>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="65" height="65" alt="VS Code"/>
+        <br>VS Code
+      </td>
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" width="65" height="65" alt="Anaconda"/>
+        <br>Anaconda
+      </td>
+      <td align = "center" width = "96">
+        <img src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg"
+        width="40"/>
+        <br>Jupiter Notebook
+      <td align="center" width="96">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"
+       width="65" height="65" alt="Google Colab"/>
+  <br>Google Colab
+</td>
+    </tr>
+  </table>
+</div>
+
 ---
 
 <table align="center">
