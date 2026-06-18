@@ -181,6 +181,33 @@
 </svg> -->
 
 
+<!-- ```svg
+<svg width="500" height="220" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bubble {
+      fill: #e9e9eb; -->
+    }
+    <!-- .text {
+      fill: #242424;
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+    }
+  </style> -->
+
+  <!-- <rect x="10" y="10" width="170" height="40" rx="18" class="bubble"/>
+  <text x="25" y="35" class="text">👋 Hi, I'm Harsh</text>
+
+  <rect x="10" y="65" width="220" height="40" rx="18" class="bubble"/>
+  <text x="25" y="90" class="text">💻 Aspiring Web Developer</text>
+
+  <rect x="10" y="120" width="210" height="40" rx="18" class="bubble"/>
+  <text x="25" y="145" class="text">✅ Frontend Completed</text>
+
+  <rect x="10" y="175" width="290" height="40" rx="18" class="bubble"/>
+  <text x="25" y="200" class="text">🚀 Currently Working on Backend</text>
+</svg>
+``` -->
+
 
 
 
