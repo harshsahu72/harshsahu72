@@ -183,7 +183,7 @@
 
 
   <rect x="10" y="10" width="170" height="40" rx="18" class="bubble"/> 
-  <text x="25" y="35" class="text">👋 Hi, I'm Harsh</text>
+  <text x="25" y="35" class="text">👋 Hi, I'm Harsh kr </text>
 
  <rect x="10" y="65" width="220" height="40" rx="18" class="bubble"/> 
  <text x="25" y="90" class="text">💻 Aspiring Web Developer</text>
