@@ -1,4 +1,4 @@
-<svg width="550" height="330" viewBox="0 0 350 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- <svg width="550" height="330" viewBox="0 0 350 220" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     .bubble {
       fill: #e9e9eb;
@@ -6,8 +6,8 @@
     a {
       fill: #0079ff;
     }
-    text {
-      fill: #242424;
+    text { -->
+      <!-- fill: #242424;
       font-size: 18px;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
       letter-spacing: -0.02em;
@@ -35,9 +35,9 @@
     .typing-4 {
       opacity: 0;
       animation: wait 5s, fade-in-out 1.5s 7.5s;
-    }
+    } -->
 
-    .msg-4 {
+    <!-- .msg-4 {
       animation: wait 6.9s, msg-4 0.2s 9.2s;
     }
 
@@ -78,10 +78,10 @@
         transform: translate(10px, 48px);
       }
     }
+ -->
 
 
-
-    @keyframes msg-4 {
+    <!-- @keyframes msg-4 {
       0% {
         opacity: 0;
         transform: translate(10px, 125px);
@@ -105,10 +105,10 @@
         fill: #0c82f9;
       }
     }
-  </style>
+  </style> -->
 
   <!-- typing 1 -->
-  <g transform="translate(10, 0)" class="typing-1">
+  <!-- <g transform="translate(10, 0)" class="typing-1">
     <rect x="8.27246" width="69.7276" height="42" rx="20.9774" class="bubble" />
     <circle cx="13.591" cy="33.091" r="7.68185" class="bubble" />
     <circle cx="3.54547" cy="41.9547" r="3.54547" class="bubble" />
@@ -122,16 +122,16 @@
     <circle cx="58.2054" cy="20.9773" r="5.02275" fill="#999999">
       <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.4s" repeatCount="indefinite" />
     </circle>
-  </g>
+  </g> -->
 
   <!-- Hi, I'm Harsh -->
-  <g transform="translate(10, 0)" class="msg-1 bubble">
+  <!-- <g transform="translate(10, 0)" class="msg-1 bubble">
     <rect width="155" height="42" rx="18.0355" />
     <text x="15" y="27">Hi, I'm Harsh 👋</text>
-  </g>
+  </g> -->
 
   <!-- typing 2 -->
-  <g transform="translate(10, 48)" class="typing-2">
+  <!-- <g transform="translate(10, 48)" class="typing-2">
     <rect x="8.27246" width="69.7276" height="42" rx="20.9774" class="bubble" />
     <circle cx="13.591" cy="33.091" r="7.68185" class="bubble" />
     <circle cx="3.54547" cy="41.9547" r="3.54547" class="bubble" />
@@ -145,17 +145,17 @@
     <circle cx="58.2054" cy="20.9773" r="5.02275" fill="#999999">
       <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.4s" repeatCount="indefinite" />
     </circle>
-  </g>
+  </g> -->
 
   <!-- Aspiring Frontend Designer -->
-  <g transform="translate(10, 48)" class="msg-2">
+  <!-- <g transform="translate(10, 48)" class="msg-2">
     <rect width="210" height="42" rx="18.0355" class="bubble" />
     <text x="15" y="27">Aspiring Web Developer</text>
-  </g>
+  </g> -->
 
 
   <!-- typing 4 -->
-  <g transform="translate(10, 96)" class="typing-4">
+  <!-- <g transform="translate(10, 96)" class="typing-4">
     <rect x="8.27246" width="69.7276" height="42" rx="20.9774" class="bubble" />
     <circle cx="13.591" cy="33.091" r="7.68185" class="bubble" />
     <circle cx="3.54547" cy="41.9547" r="3.54547" class="bubble" />
@@ -169,13 +169,134 @@
     <circle cx="58.2054" cy="20.9773" r="5.02275" fill="#999999">
       <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.4s" repeatCount="indefinite" />
     </circle>
-  </g>
+  </g> -->
 
   <!-- Currently working on -->
-  <g transform="translate(10, 96)" class="msg-4">
+  <!-- <g transform="translate(10, 96)" class="msg-4">
     <rect width="340" height="42" rx="18.0355" class="bubble" />
     <text x="15" y="27">Currently working on Frontend Designing </text>
   </g>
 
   
+</svg> -->
+
+
+
+
+
+```svg
+<svg width="550" height="330" viewBox="0 0 350 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bubble {
+      fill: #e9e9eb;
+    }
+
+    text {
+      fill: #242424;
+      font-size: 18px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      letter-spacing: -0.02em;
+    }
+
+    .msg-1 {
+      opacity: 0;
+      animation: msg-1 0.4s forwards;
+    }
+
+    .msg-2 {
+      opacity: 0;
+      animation: msg-2 0.4s 1.5s forwards;
+    }
+
+    .msg-3 {
+      opacity: 0;
+      animation: msg-3 0.4s 3s forwards;
+    }
+
+    .msg-4 {
+      opacity: 0;
+      animation: msg-4 0.4s 4.5s forwards;
+    }
+
+    @keyframes msg-1 {
+      from {
+        opacity: 0;
+        transform: translate(10px, 5px);
+      }
+      to {
+        opacity: 1;
+        transform: translate(10px, 0);
+      }
+    }
+
+    @keyframes msg-2 {
+      from {
+        opacity: 0;
+        transform: translate(10px, 53px);
+      }
+      to {
+        opacity: 1;
+        transform: translate(10px, 48px);
+      }
+    }
+
+    @keyframes msg-3 {
+      from {
+        opacity: 0;
+        transform: translate(10px, 101px);
+      }
+      to {
+        opacity: 1;
+        transform: translate(10px, 96px);
+      }
+    }
+
+    @keyframes msg-4 {
+      from {
+        opacity: 0;
+        transform: translate(10px, 149px);
+      }
+      to {
+        opacity: 1;
+        transform: translate(10px, 144px);
+      }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .bubble {
+        fill: #3b3b3d;
+      }
+
+      text {
+        fill: #dcdcdc;
+      }
+    }
+  </style>
+
+  <!-- Message 1 -->
+  <g transform="translate(10, 0)" class="msg-1">
+    <rect width="155" height="42" rx="18.0355" class="bubble" />
+    <text x="15" y="27">Hi, I'm Harsh 👋</text>
+  </g>
+
+  <!-- Message 2 -->
+  <g transform="translate(10, 48)" class="msg-2">
+    <rect width="220" height="42" rx="18.0355" class="bubble" />
+    <text x="15" y="27">Aspiring Web Developer</text>
+  </g>
+
+  <!-- Message 3 -->
+  <g transform="translate(10, 96)" class="msg-3">
+    <rect width="210" height="42" rx="18.0355" class="bubble" />
+    <text x="15" y="27">✅ Frontend Completed</text>
+  </g>
+
+  <!-- Message 4 -->
+  <g transform="translate(10, 144)" class="msg-4">
+    <rect width="290" height="42" rx="18.0355" class="bubble" />
+    <text x="15" y="27">🚀 Currently Working on Backend</text>
+  </g>
+
 </svg>
+```
+
