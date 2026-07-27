@@ -1,6 +1,8 @@
-![](https://github.com/harshsahu72/harshsahu72/blob/main/chat.svg)
-
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="light.svg">
+  <img alt="Harsh Kumar" src="dark.svg">
+</picture>
 
 ## Languages and Tools
 
